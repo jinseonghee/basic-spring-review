@@ -17,7 +17,7 @@ public class MemoryMemerRepositoryTest {
 	//메서드당 Test가 끝날때마다 store을 비워줌.
 	@AfterEach
 	public void afterEach() {
-		repository.clearStroe();
+		repository.clearStore();
 	}
 
 	@Test
